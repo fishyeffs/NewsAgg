@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166328390843",
+    "firebase_url": "https://newsagg-a16b2.firebaseio.com",
+    "project_id": "newsagg-a16b2",
+    "storage_bucket": "newsagg-a16b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166328390843:android:f5120f0f2029c95f9ec59e",
+        "android_client_info": {
+          "package_name": "com.example.newsagg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166328390843-277vmr1ps9kbb224o0mv1evbc3vshst7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsagg",
+            "certificate_hash": "5e0a8be000adc9013254723f0137dee7d9ddc02a"
+          }
+        },
+        {
+          "client_id": "166328390843-s69f0g1j96j6snaeep7r9e93clpk9b8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1ay57pzaAxKI9ppZKSHcg3TEvQDEJ-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166328390843-s69f0g1j96j6snaeep7r9e93clpk9b8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

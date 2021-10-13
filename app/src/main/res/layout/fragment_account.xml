@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TopicsFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainView"
+        tools:context=".MainActivity">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:padding="15dp"
+
+            android:clickable="true"
+            android:focusable="true">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_account"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/account_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toEndOf="@id/icon2"
+                android:text="Account name"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Recently Viewed Articles:"
+            android:textSize="20sp"/>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:padding="6dp"
+
+            android:clickable="true"
+            android:focusable="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon1"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_sources"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/headline1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toRightOf="@id/icon1"
+                android:text="@string/source1"
+                android:textSize="20sp"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/summary1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toRightOf="@id/icon1"
+                android:text="Hardcoded summary of article"
+                android:textSize="20sp"
+                />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
